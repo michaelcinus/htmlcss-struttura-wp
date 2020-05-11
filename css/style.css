@@ -13,6 +13,10 @@ background-color: #2a9d8f;
 }
 
 /* main */
+.container{
+  padding: 0.5%;
+}
+
 .container::after{
   content: "";
   display: table;
@@ -24,22 +28,35 @@ background-color: #2a9d8f;
   width: 30%;
   float: left;
 /* debug */
- height: 200px;
+ height: 300px;
  background-color: #e9c46a;
 }
 
 .column-ce{
-  width: 40%;
+  width: 39%;
   float: left;
 /* debug */
-height: 200px;
-background-color: #f4a261;
+ margin: 0 0.5%;
+ height: 400px;
+ background-color: #f4a261;
 }
 
 .column-dx{
   width: 30%;
   float: right;
+}
+
+.blockdx-1{
+  width: 100%;
 /* debug */
+ height: 200px;
+ background-color: #e9c46a;
+}
+
+.blockdx-2{
+  width: 100%;
+/* debug */
+ border-top: solid 10px white;
  height: 200px;
  background-color: #e9c46a;
 }
