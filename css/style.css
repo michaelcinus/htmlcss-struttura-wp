@@ -8,10 +8,12 @@
 /* header */
 header{
  height: 150px;
+/* debug */
+background-color: #2a9d8f;
 }
 
 /* main */
-.contaire::after{
+.container::after{
   content: "";
   display: table;
   clear: both;
@@ -21,19 +23,30 @@ header{
 .column-sx{
   width: 30%;
   float: left;
+/* debug */
+ height: 200px;
+ background-color: #e9c46a;
 }
 
 .column-ce{
   width: 40%;
   float: left;
+/* debug */
+height: 200px;
+background-color: #f4a261;
 }
 
 .column-dx{
   width: 30%;
   float: right;
+/* debug */
+ height: 200px;
+ background-color: #e9c46a;
 }
 
 /* footer */
 footer{
  height: 150px;
+/* debug */
+background: #e76f51;
 }
