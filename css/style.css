@@ -5,17 +5,22 @@
   box-sizing: border-box;
 }
 
+/* full page container */
+.full-page{
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* header */
 header{
  height: 150px;
 /* debug */
- margin: 0.5%;
  background-color: #2a9d8f;
 }
 
-/* main */
+/* container main part */
 .container{
-  margin: 0 0.5%;
+  margin: 0.5% 0;
 }
 
 .container::after{
@@ -25,7 +30,7 @@ header{
 }
 
 /* columns */
-.column-sx{
+ aside{
   width: 30%;
   float: left;
 /* debug */
@@ -33,7 +38,7 @@ header{
  background-color: #e9c46a;
 }
 
-.column-ce{
+ main{
   width: 39%;
   float: left;
 /* debug */
@@ -42,30 +47,15 @@ header{
  background-color: #f4a261;
 }
 
-.column-dx{
-  width: 30%;
-  float: right;
-}
-
-.blockdx-1{
+.widget{
   width: 100%;
 /* debug */
  height: 200px;
- background-color: #e9c46a;
-}
-
-.blockdx-2{
-  width: 100%;
-/* debug */
- border-top: solid 10px white;
- height: 200px;
- background-color: #e9c46a;
 }
 
 /* footer */
 footer{
  height: 150px;
 /* debug */
- margin: 0.5%;
  background: #e76f51;
 }
